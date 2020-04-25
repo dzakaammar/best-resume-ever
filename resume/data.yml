@@ -1,62 +1,60 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Dzaka
+  middle: Ammar
+  last: Ibrahim
+about: 
+position: Software Engineer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1993
+  location: Ternate, North Maluku, Indonesia
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Kumparan
+  position: Backend Engineer
+  timeperiod: since September 2018
+  description: "As a backend engineer, I responsible to collaborate with the engineering and product team to build new features. And responsible to mantain services to achieve high availability and best performance. Stacks: Go, gRPC, GraphQL, CockroachDB, Redis, Elasticsearch, NATS Streaming"
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Cybertrend Intrabuana
+  position: Product Engineer
+  timeperiod: January 2018 - September 2018
+  description: As a product engineer, I responsible to design and develop the Sentiment Analytic System using Go, Apache Kafka, MongoDB, Redis, and Elasticsearch.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Cybertrend Intrabuana
+  position: Web Developer
+  timeperiod: October 2016 - January 2018
+  description: "As a web developer, I responsible to develop web applications based on client requirements. I responsible to develop Client Relationship Management System for internal corporate purposes."
+
+- company: Satu Data Indonesia (Kantor Staf Presiden RI)
+  position: Programming Specialist
+  timeperiod: May 2016 - August 2016 (Internship)
+  description: As a programming specialist intern, I responsible to mantain government's open data portal.
+  website: https://data.go.id
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Computer
+  timeperiod: September 2012 - May 2017
+  description: Major in Informatics Engineering, Islamic State University of Jakarta, Indonesia.
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Go
+  level: 90
+- name: Laravel
   level: 80
-- name: ES.Next
+- name: Elasticsearch
   level: 70
-- name: Docker
-  level: 99
+- name: Redis
+  level: 70
+- name: NATS
+  level: 70
+- name: Microservices
+  level: 65
+- name: GraphQL
+  level: 65
+- name: SQL
+  level: 60
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
@@ -68,12 +66,12 @@ projects:
   url: https://github.com/salomonelli/best-resume-ever
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
+- name: Movies
+  iconClass: fa fa-film
   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
+- name: Dota 2
+  iconClass: fa fa-gamepad
   url: https://example.com
 
 contributions:
@@ -82,12 +80,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+  email: dzakaammar@email.com
+  phone: (+62) 812 9714 0026
+  street: Ciputat
+  city: Tangerang Selatan
+  website: "https://dzakaammar.github.io"
+  github: dzakaammar
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
