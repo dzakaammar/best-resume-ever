@@ -4,7 +4,7 @@ name:
   middle: Ammar
   last: Ibrahim
 about: 
-position: Software Engineer
+position: Senior Software Engineer
 
 birth:
   year: 1993
@@ -55,8 +55,7 @@ skills:
   level: 65
 - name: SQL
   level: 60
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge:
 
 projects:
 - name: best-resume-ever
